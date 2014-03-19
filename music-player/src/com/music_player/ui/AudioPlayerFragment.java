@@ -8,16 +8,16 @@ import android.view.ViewGroup;
 import com.music_player.R;
 
 /**
- * Created by fenghb on 3/18/14.
+ * Created by fenghb on 3/19/14.
  */
-public class BottomActionBarFragment extends Fragment {
+public class AudioPlayerFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View mView = inflater.inflate(R.layout.fragment_bottom_actionbar, null);
+        View mView = inflater.inflate(R.layout.fragment_audio_player, null);
+
         return mView;
     }
-
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
