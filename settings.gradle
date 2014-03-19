@@ -1,0 +1,6 @@
+include ':actionbarsherlock'
+include ':music-player'
+include ':roboguice-sherlock'
+include ':slidingmenu'
+include ':drag-sort-listview'
+include ':sliding-up-panel'
